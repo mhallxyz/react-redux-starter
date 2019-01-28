@@ -14,7 +14,7 @@ class TestComponent extends Component {
         return (
             <div>
                 <input onChange={event => this.onTextChange(event.target.value)} value={this.props.textValue} />
-                <p>Test</p>
+                <p className="main-text">Test</p>
             </div>
         );
     }
